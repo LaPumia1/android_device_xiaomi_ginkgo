@@ -24,6 +24,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 $(call inherit-product, device/xiaomi/ginkgo/device.mk)
 
 # Inherit some common Pixel Experience stuff
+TARGET_GAPPS_ARCH := arm64
+TARGET_SUPPORTS_GOOGLE_RECORDER := true
+TARGET_INCLUDE_STOCK_ARCORE := true
+TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_INCLUDE_WIFI_EXT := true
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 # Device identifier
