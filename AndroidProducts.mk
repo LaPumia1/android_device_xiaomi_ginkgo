@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/potato_ginkgo.mk
+    $(LOCAL_DIR)/clarity_ginkgo.mk
 
 COMMON_LUNCH_CHOICES := \
-    potato_ginkgo-user \
-    potato_ginkgo-userdebug \
-    potato_ginkgo-eng
+    clarity_ginkgo-user \
+    clarity_ginkgo-userdebug \
+    clarity_ginkgo-eng
